@@ -1,0 +1,24 @@
+body::before{
+	content: '';
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.85)), url('../images/newbackground.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+html,
+body{
+	height: 100%;
+}
+blockquote{
+font-family: 'Roboto', sans-serif;
+}
+#buttons button:hover{
+	color: red;
+}
