@@ -1,6 +1,6 @@
 //this is an illustration of a database of quotes from the movie 'V for Vendetta'
 let quotesdb = [{"quote": "People shouldn't be afraid of their government. Governments should be afraid of their people.","quoted_by":"V","origin_title":"V for Vendetta","origin_author":"Alan Moore"},
-    {"quote": "Beneath this mask there is more than flesh, Beneath this mask there is an idea, Mr. Creedy, and ideas are bulletproof.",
+    {"quote": "Beneath this mask there is more than flesh, Beneath this mask there is an idea, ...and ideas are bulletproof.",
         "quoted_by": "V",
         "origin_title": "V for Vendetta",
         "origin_author": "Alan Moore"
@@ -15,7 +15,7 @@ let quotesdb = [{"quote": "People shouldn't be afraid of their government. Gover
         "origin_title": "V for Vendetta",
         "origin_author": "Alan Moore"
     },
-    {"quote": "The only verdict is vengeance a vendetta",
+    {"quote": "The only verdict is vengeance; A vendetta",
         "quoted_by": "V",
         "origin_title": "V for Vendetta",
         "origin_author": "Alan Moore"
@@ -56,7 +56,7 @@ let quotesdb = [{"quote": "People shouldn't be afraid of their government. Gover
         "origin_title": "V for Vendetta",
         "origin_author": "Alan Moore"
     },
-    {"quote": "My father was a writer. You would've liked him. He used to say that artists use lies to tell the truth, while politicians use them to cover the truth up.","quoted_by":"Evey Hammond","origin_title":"V for Vendetta","origin_author":"Alan Moore"},
+    {"quote": "...artists use lies to tell the truth, while politicians use them to cover the truth up.", "quoted_by": "Evey Hammond", "origin_title": "V for Vendetta", "origin_author": "Alan Moore"},
     {"quote": "To fail is to invite doubt into everything we believe; everything that we have fought for. Doubt will plunge this country back into chaos and I will not let that happen",
         "quoted_by": "Adam Sutler",
         "origin_title": "V for Vendetta",
@@ -78,19 +78,23 @@ let quotesdb = [{"quote": "People shouldn't be afraid of their government. Gover
         "origin_title": "V for Vendetta",
         "origin_author": "Alan Moore"
     },
-    {"quote": "The multiplying villainies of nature do swarm upon him. And fortune, on his damned quarrel, smiling, showed like a rebel's whore. Disdaining fortune with his brandished steel, which smoked with bloody execution","quoted_by":"V","origin_title":"V for Vendetta","origin_author":"Alan Moore"},
-    {"quote": "Happiness is the most insidious prison of all, Evey.",
+    {"quote": "The multiplying villainies of nature do swarm upon him, ...Disdaining fortune with his brandished steel, which smoked with bloody execution", "quoted_by": "V", "origin_title": "V for Vendetta", "origin_author": "Alan Moore"},
+    {"quote": "Happiness is the most insidious prison of all",
         "quoted_by": "V",
         "origin_title": "V for Vendetta",
         "origin_author": "Alan Moore"
     },
-    {"quote": "Gordon please, I don't need mister to make this body feel any older.","quoted_by":"Deitrich","origin_title":"V for Vendetta","origin_author":"Alan Moore"},
     {"quote": "Your powers of observation continue to serve you well.",
         "quoted_by": "V",
         "origin_title": "V for Vendetta",
         "origin_author": "Alan Moore"
     },
-    {"quote": "While the truncheon may be used in lieu of conversation, words will always retain their power. Words offer the means to meaning, and for those who will listen, the enunciation of truth.",
+    {"quote": "Words offer the means to meaning, and for those who will listen, the enunciation of truth.",
+        "quoted_by": "V",
+        "origin_title": "V for Vendetta",
+        "origin_author": "Alan Moore"
+    },
+    {"quote": "While the truncheon may be used in lieu of conversation, words will always retain their power",
         "quoted_by": "V",
         "origin_title": "V for Vendetta",
         "origin_author": "Alan Moore"
@@ -113,14 +117,14 @@ let quotesdb = [{"quote": "People shouldn't be afraid of their government. Gover
     },
     {"quote": "Defiant to the end, huh? You won't cry like him, will you? You're not afraid of death. You're like me.","quoted_by":"Peter Creedy","origin_title":"V for Vendetta","origin_author":"Alan Moore"},
     {"quote": "I wish I wasn't afraid all the time, but... I am.","quoted_by":"Evey Hammond","origin_title":"V for Vendetta","origin_author":"Alan Moore"},
-    {"quote": "Evey, please. . .there is a face beneath this mask, but it's not me. I'm no more that face than I am the muscles beneath it, or the bones beneath them.",
+    {"quote": "there is a face beneath this mask, but it's not me. I'm no more that face than I am the muscles beneath it, or the bones beneath them.",
         "quoted_by": "V",
         "origin_title": "V for Vendetta",
         "origin_author": "Alan Moore"
     },
-    {"quote": "Words are the means to meaning, and for those who listen, the enunciation of truth, and the truth is there is something terribly wrong with this country, isn't there?","quoted_by":"V","origin_title":"V for Vendetta","origin_author":"Alan Moore"},
+    {"quote": "Words are the means to meaning, and for those who listen, the enunciation of truth, and the truth is; there is something terribly wrong with this country, isn't there?","quoted_by":"V","origin_title":"V for Vendetta","origin_author":"Alan Moore"},
     {"quote": "Creedy: Whatchya gonna do, huh? We've swept this place. You've got nothing. Nothing but your bloody knives and your fancy karate gimmicks. We have guns. \n V: No, what you have are bullets, and the hope that when your guns are empty I'm no longer be standing, because if I am you'll all be dead before you've reloaded.","quoted_by":"Dialogue between Creedy and V","origin_title":"V for Vendetta","origin_author":"Alan Moore"},
-    {"quote": "In view, a humble vaudevillian veteran, cast vicariously as both victim and villain by the vicissitudes of Fate. This visage, no mere veneer of vanity, is a vestige of the vox populi, now vacant, vanished.”",
+    {"quote": "In view, a humble vaudevillian veteran, cast vicariously as both victim and villain by the vicissitudes of Fate. This visage, no mere veneer of vanity, is a vestige of the vox populi, now vacant, vanished.",
         "quoted_by": "V",
         "origin_title": "V for Vendetta",
         "origin_author": "Alan Moore"
@@ -140,7 +144,7 @@ let quotesdb = [{"quote": "People shouldn't be afraid of their government. Gover
         "origin_title": "V for Vendetta",
         "origin_author": "Alan Moore"
     },
-    {"quote": "The truth is, there is something terribly wrong with this country, isn't there? Cruelty and injustice, intolerance and oppression. And where once you had the freedom to object, to think and speak as you saw fit, you now have censors and systems of surveillance coercing your conformity and soliciting your submission.","quoted_by":"V","origin_title":"V for Vendetta","origin_author":"Alan Moore"},
+    {"quote": "The truth is, there is something terribly wrong with this country, isn't there? Cruelty and injustice, intolerance and oppression. And where you once had the freedom to object, to think and speak as you saw fit, you now have censors and systems of surveillance coercing your conformity and soliciting your submission.","quoted_by":"V","origin_title":"V for Vendetta","origin_author":"Alan Moore"},
     {"quote": "I dare do all that may become a man, Who dares do more is none.",
         "quoted_by": "V",
         "origin_title": "Macbeth",
@@ -151,7 +155,7 @@ let quotesdb = [{"quote": "People shouldn't be afraid of their government. Gover
         "origin_title": "Richard III",
         "origin_author": "Shakespeare"
     },
-    {"quote": "We are oft to blame in this, 'Tis too much proved - that with devotion's visage, And pious action, we do sugar o'er The devil himself.","quoted_by":"V","origin_title":"Shakespeare's Hamlet Act 3, Scene 1",
+    {"quote": "We are oft to blame in this,'Tis too much proved - that with devotion's visage, And pious action, we do sugar o'er The devil himself.","quoted_by":"V","origin_title":"Shakespeare's Hamlet Act 3, Scene 1",
         "origin_author": "Polonius"
     },
     {"quote": "One thing is true of all governments - their most reliable records are tax records.",
@@ -213,37 +217,44 @@ const getRandomQuote = (data) => {
     }
 }
 
-//this creates a variable for the text placeholder where the quote would be displayed
-let quoteplaceholder = document.getElementById('text');
 
-//this creates a variable for the text placeholder where the author of the quote would be displayed
-let authorPlaceholder = document.getElementById('author');
-
-let newQuoteButton = document.getElementById('new-quote');
+let presentQuote = '';
 
 /*this function is run when the page loads and when there is an initiation by a user
 the purpose is to get a random quote from the source and display it onto the placeholders*/
-const QUOTE = (() => {let randomQuote = getRandomQuote(quotesdb);
-
-
-    //this constructor is used to get the quotes 
-    function VendettaQuote(randomQuote) {this.quote = randomQuote['requestedQuote'];
-
-        this.quoteAuthor = randomQuote['requestedQuoteAuthor'];
-
+const QUOTE = () => {let randomQuote = getRandomQuote(quotesdb);
+    /*this function to ensure that the quote being generated isn't the same as the one 
+     * already on the screen.
+     * This feature is quite important since the quotes are generated randomly,
+     * and there is a possibility of a quote being generated twice in a row
+     * 
+     *If the quote in displayis the same as the newly generated quote, it generates another random code and 
+     *repeats this until a different quote is generated
+     */
+    while (randomQuote.requestedQuote == presentQuote) {randomQuote = getRandomQuote(quotesdb);
 
     }
 
 
-    let vendetta = new VendettaQuote(randomQuote);
 
-    quoteplaceholder.innerHTML = vendetta.quote.replace(/\n/g, "<br><br>");
-    authorPlaceholder.innerHTML = vendetta.quoteAuthor
-
-})();
+    let quote = randomQuote.requestedQuote;
+    let author = randomQuote.requestedQuoteAuthor;
+    let tweet = `${quote.replace(/\n/g,'%0A')}%0D%0A- ${author}`
 
 
 
+    $(document).ready(function() {$('#text').hide().html(quote).fadeTo(500, 1);
+        $('#author').hide().html(author).fadeTo(500, 1);
+        $('#tweet-quote').attr({'href': `https://www.twitter.com/intent/tweet?text=${tweet}` })
+    })
 
-// let newquote=()=>{// 	getRandomQuote(quotesdb)
-// }
+
+    presentQuote = quote;
+}
+
+QUOTE();
+
+
+$('#new-quote').click(() => {$('#text, #author').fadeTo(500, 0).promise().done(function() {QUOTE();
+    })
+});
